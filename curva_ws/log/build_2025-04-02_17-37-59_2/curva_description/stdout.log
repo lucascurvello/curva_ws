@@ -1,0 +1,26 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/lucascurvello/curva_ws/build/curva_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/urdf/curva_description.urdf
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/rviz/config.rviz
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/launch/display.launch.py
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/ament_index/resource_index/package_run_dependencies/curva_description
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/ament_index/resource_index/parent_prefix_path/curva_description
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/environment/path.sh
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/environment/path.dsv
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/local_setup.bash
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/local_setup.sh
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/local_setup.zsh
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/local_setup.dsv
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/package.dsv
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/ament_index/resource_index/packages/curva_description
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/cmake/curva_descriptionConfig.cmake
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/cmake/curva_descriptionConfig-version.cmake
+-- Symlinking: /home/lucascurvello/curva_ws/install/curva_description/share/curva_description/package.xml

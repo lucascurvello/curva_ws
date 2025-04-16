@@ -1,0 +1,4 @@
+source;share/curva_description/local_setup.bash
+source;share/curva_description/local_setup.dsv
+source;share/curva_description/local_setup.sh
+source;share/curva_description/local_setup.zsh
