@@ -1,0 +1,29 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/lucas/Documents/curva_ws/curva_ws/build/curva_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/urdf/curva_description.urdf
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/rviz/config.rviz
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/launch/display.launch.py
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/sdf/curva_description.sdf
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/config/bridge_config.yaml
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/world/my_world.sdf
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/ament_index/resource_index/package_run_dependencies/curva_description
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/ament_index/resource_index/parent_prefix_path/curva_description
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/environment/ament_prefix_path.sh
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/environment/ament_prefix_path.dsv
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/environment/path.sh
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/environment/path.dsv
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/local_setup.bash
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/local_setup.sh
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/local_setup.zsh
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/local_setup.dsv
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/package.dsv
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/ament_index/resource_index/packages/curva_description
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/cmake/curva_descriptionConfig.cmake
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/cmake/curva_descriptionConfig-version.cmake
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/package.xml

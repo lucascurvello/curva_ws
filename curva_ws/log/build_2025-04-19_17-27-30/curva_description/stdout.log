@@ -1,0 +1,23 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/urdf/curva_description.urdf
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/rviz/config.rviz
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/launch/display.launch.py
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/sdf/curva_description.sdf
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/config/ekf.yaml
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/world/my_world.sdf
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/ament_index/resource_index/package_run_dependencies/curva_description
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/ament_index/resource_index/parent_prefix_path/curva_description
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/environment/path.sh
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/environment/path.dsv
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/local_setup.bash
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/local_setup.sh
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/local_setup.zsh
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/local_setup.dsv
+-- Symlinking: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/package.dsv
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/ament_index/resource_index/packages/curva_description
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/cmake/curva_descriptionConfig.cmake
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/cmake/curva_descriptionConfig-version.cmake
+-- Up-to-date symlink: /home/lucas/Documents/curva_ws/curva_ws/install/curva_description/share/curva_description/package.xml

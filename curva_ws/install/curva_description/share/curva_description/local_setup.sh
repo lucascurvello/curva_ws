@@ -1,1 +1,1 @@
-/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.sh
+/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.sh

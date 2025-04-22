@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/home/lucas/Documents/curva_ws/curva_ws/build/curva_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lucas/Documents/curva_ws/curva_ws/src/curva_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/curva_ws/curva_ws/install/curva_description
+[0.137s] -- The C compiler identification is GNU 13.3.0
+[0.243s] -- The CXX compiler identification is GNU 13.3.0
+[0.262s] -- Detecting C compiler ABI info
+[0.345s] -- Detecting C compiler ABI info - done
+[0.356s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.357s] -- Detecting C compile features
+[0.358s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.466s] -- Detecting CXX compiler ABI info - done
+[0.473s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.474s] -- Detecting CXX compile features
+[0.474s] -- Detecting CXX compile features - done
+[0.486s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.634s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.737s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.788s] [31mCMake Error at CMakeLists.txt:6 (find_package):
+[0.788s]   By not providing "Findxacro.cmake" in CMAKE_MODULE_PATH this project has
+[0.788s]   asked CMake to find a package configuration file provided by "xacro", but
+[0.788s]   CMake did not find one.
+[0.788s] 
+[0.788s]   Could not find a package configuration file provided by "xacro" with any of
+[0.789s]   the following names:
+[0.789s] 
+[0.789s]     xacroConfig.cmake
+[0.789s]     xacro-config.cmake
+[0.789s] 
+[0.789s]   Add the installation prefix of "xacro" to CMAKE_PREFIX_PATH or set
+[0.789s]   "xacro_DIR" to a directory containing one of the above files.  If "xacro"
+[0.789s]   provides a separate development package or SDK, be sure it has been
+[0.789s]   installed.
+[0.790s] 
+[0.790s] [0m
+[0.790s] -- Configuring incomplete, errors occurred!
+[0.793s] Invoked command in '/home/lucas/Documents/curva_ws/curva_ws/build/curva_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/lucas/Documents/curva_ws/curva_ws/src/curva_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lucas/Documents/curva_ws/curva_ws/install/curva_description

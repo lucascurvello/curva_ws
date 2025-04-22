@@ -23,7 +23,7 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
 
   # make destination absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/lucascurvello/curva_ws/install/curva_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/lucas/Documents/curva_ws/curva_ws/install/curva_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -123,7 +123,7 @@ function(ament_cmake_symlink_install_files cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/lucascurvello/curva_ws/install/curva_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/lucas/Documents/curva_ws/curva_ws/install/curva_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -181,7 +181,7 @@ function(ament_cmake_symlink_install_programs cmake_current_source_dir)
 
   # make destination an absolute path and ensure that it exists
   if(NOT IS_ABSOLUTE "${ARG_DESTINATION}")
-    set(ARG_DESTINATION "/home/lucascurvello/curva_ws/install/curva_description/${ARG_DESTINATION}")
+    set(ARG_DESTINATION "/home/lucas/Documents/curva_ws/curva_ws/install/curva_description/${ARG_DESTINATION}")
   endif()
   if(NOT EXISTS "${ARG_DESTINATION}")
     file(MAKE_DIRECTORY "${ARG_DESTINATION}")
@@ -251,7 +251,7 @@ function(ament_cmake_symlink_install_targets)
 
     # make destination an absolute path and ensure that it exists
     if(NOT IS_ABSOLUTE "${destination}")
-      set(destination "/home/lucascurvello/curva_ws/install/curva_description/${destination}")
+      set(destination "/home/lucas/Documents/curva_ws/curva_ws/install/curva_description/${destination}")
     endif()
     if(NOT EXISTS "${destination}")
       file(MAKE_DIRECTORY "${destination}")
@@ -311,46 +311,46 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(DIRECTORY "urdf" "rviz" "launch" "sdf" "config" "world" "DESTINATION" "share/curva_description")
-ament_cmake_symlink_install_directory("/home/lucascurvello/curva_ws/src/curva_description" DIRECTORY "urdf" "rviz" "launch" "sdf" "config" "world" "DESTINATION" "share/curva_description")
+ament_cmake_symlink_install_directory("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" DIRECTORY "urdf" "rviz" "launch" "sdf" "config" "world" "DESTINATION" "share/curva_description")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/curva_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/curva_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/curva_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/curva_description" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/curva_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/curva_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/curva_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/curva_description" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/curva_description/environment")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/curva_description/environment")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/curva_description/environment")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/curva_description/environment")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/curva_description/environment")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/curva_description/environment")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/curva_description/environment")
 
 # install(FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/curva_description/environment")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/curva_description/environment")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/opt/ros/jazzy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/curva_description/environment")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/curva_description/environment")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/curva_description/environment")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/curva_description/environment")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/curva_description/environment")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/curva_description")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/curva_description")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/curva_description")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/curva_description")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/curva_description")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/curva_description")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/curva_description")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/curva_description")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/curva_description")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/curva_description")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/curva_description")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/curva_description")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/curva_description")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/curva_description")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/curva_description")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/curva_description")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/curva_description")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/curva_description")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/curva_description")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/curva_description")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/packages/curva_description" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/packages/curva_description" "DESTINATION" "share/ament_index/resource_index/packages")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/packages/curva_description" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_index/share/ament_index/resource_index/packages/curva_description" "DESTINATION" "share/ament_index/resource_index/packages")
 
-# install(FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig.cmake" "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig-version.cmake" "DESTINATION" "share/curva_description/cmake")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig.cmake" "/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig-version.cmake" "DESTINATION" "share/curva_description/cmake")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig.cmake" "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig-version.cmake" "DESTINATION" "share/curva_description/cmake")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig.cmake" "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig-version.cmake" "DESTINATION" "share/curva_description/cmake")
 
-# install(FILES "/home/lucascurvello/curva_ws/src/curva_description/package.xml" "DESTINATION" "share/curva_description")
-ament_cmake_symlink_install_files("/home/lucascurvello/curva_ws/src/curva_description" FILES "/home/lucascurvello/curva_ws/src/curva_description/package.xml" "DESTINATION" "share/curva_description")
+# install(FILES "/home/lucas/Documents/curva_ws/curva_ws/src/curva_description/package.xml" "DESTINATION" "share/curva_description")
+ament_cmake_symlink_install_files("/home/lucas/Documents/curva_ws/curva_ws/src/curva_description" FILES "/home/lucas/Documents/curva_ws/curva_ws/src/curva_description/package.xml" "DESTINATION" "share/curva_description")

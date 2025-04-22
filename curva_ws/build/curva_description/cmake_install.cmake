@@ -1,8 +1,8 @@
-# Install script for directory: /home/lucascurvello/curva_ws/src/curva_description
+# Install script for directory: /home/lucas/Documents/curva_ws/curva_ws/src/curva_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/lucascurvello/curva_ws/install/curva_description")
+  set(CMAKE_INSTALL_PREFIX "/home/lucas/Documents/curva_ws/curva_ws/install/curva_description")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  include("/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
+  include("/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/lucascurvello/curva_ws/build/curva_description/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/lucas/Documents/curva_ws/curva_ws/build/curva_description/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

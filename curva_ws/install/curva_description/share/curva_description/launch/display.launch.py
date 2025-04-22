@@ -1,1 +1,1 @@
-/home/lucascurvello/curva_ws/src/curva_description/launch/display.launch.py
+/home/lucas/Documents/curva_ws/curva_ws/src/curva_description/launch/display.launch.py
