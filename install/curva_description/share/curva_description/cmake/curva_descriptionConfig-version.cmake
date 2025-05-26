@@ -1,0 +1,1 @@
+/home/lucascurvello/curva_ws/build/curva_description/ament_cmake_core/curva_descriptionConfig-version.cmake
