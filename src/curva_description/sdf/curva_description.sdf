@@ -63,6 +63,7 @@
 
     <!-- Robot Base -->
     <link name='base_link'>
+      <pose>0.0 0.0 ${(base_height)/2+wheel_radius} 0 0 0</pose>
       <must_be_base_link>true</must_be_base_link>
       <visual name="base_link_visual">
         <geometry>
